@@ -1,0 +1,14 @@
+# Entornos virtuales de Python
+__pycache__/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Salidas generadas
+output/
+
+# Archivos temporales
+*.pyc
+*.pyo
+*.pyd

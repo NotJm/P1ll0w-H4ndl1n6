@@ -4,7 +4,7 @@ from settings import *
 def execute(path_filename: str, out_path_filename:str, format:str, extension:str) -> bool:
     try:
         image = Image.open(path_filename)
-        image.save(f"{out_path_filename}{extension}", format=format)
+        image.save(f"mnt/data{out_path_filename}{extension}", format=format)
     except Exception as e:
         return False
     
